@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">JavaBaseProject</string>
+    <string name="parking_button">Parking Button</string>
+    <string name="parking_text">Parking Text</string>
 </resources>

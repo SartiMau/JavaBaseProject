@@ -7,12 +7,23 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/parking_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="@string/parking_text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/parking_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/parking_button_margin_top"
+        android:text="@string/parking_button"
+        app:layout_constraintEnd_toEndOf="@+id/parking_textview"
+        app:layout_constraintStart_toStartOf="@+id/parking_textview"
+        app:layout_constraintTop_toBottomOf="@+id/parking_textview" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
