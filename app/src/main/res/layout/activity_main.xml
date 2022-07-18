@@ -21,7 +21,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/parking_button_margin_top"
+        android:background="@color/purple_500"
         android:text="@string/parking_button"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="@+id/parking_textview"
         app:layout_constraintStart_toStartOf="@+id/parking_textview"
         app:layout_constraintTop_toBottomOf="@+id/parking_textview" />
