@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">JavaBaseProject</string>
+    <string name="text_button_main_activity">button</string>
+    <string name="text_view_main_activity">text</string>
 </resources>
